@@ -1,3 +1,24 @@
+// Your task is to create a function that does four basic mathematical operations.
+
+// The function should take three arguments - operation(string/char), value1(number), value2(number).
+// The function should return result of numbers after applying the chosen operation.
+
+// ('+', 4, 7) --> 11
+// ('-', 15, 18) --> -3
+// ('*', 5, 5) --> 25
+// ('/', 49, 7) --> 7
+
+function basicOp(operation, value1, value2)
+{
+  return operation == '+' ? value1 + value2
+  : operation == '-' ? value1 - value2
+  : operation == '*' ? value1 * value2
+  : value1 / value2
+}
+
+basicOp('+', 4, 7)
+
+
 // Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
 
 // params: an array
@@ -15,8 +36,6 @@ function sumOfTwoLowest(arr){
 }
 
 sumOfTwoLowest([22, 8, 5, 19, 12])
-
-
 
 
 // This function should test if the factor is a factor of base.
@@ -51,3 +70,6 @@ function paperwork(n, m) {
     return(m * n)
   }
 }
+
+// commit message: "today's codewars"
+
