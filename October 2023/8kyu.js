@@ -1,3 +1,27 @@
+// Write function bmi that calculates body mass index (bmi = weight / height2).
+
+// if bmi <= 18.5 return "Underweight"
+
+// if bmi <= 25.0 return "Normal"
+
+// if bmi <= 30.0 return "Overweight"
+
+// if bmi > 30 return "Obese"
+
+function bmi(weight, height) {
+    if (bmi <= 18.5){
+        return "Underweight"
+    } else if (bmi <= 25.0) {
+        return "Normal"
+    } else if (bmi <= 25.0){
+        return "Normal"
+    } else if (bmi <= 30.0){
+        return "Overweight"
+    } else {
+        return "Obese"
+    }
+}
+
 // Alex just got a new hula hoop, he loves it but feels discouraged because his little brother is better than him
 
 // Write a program where Alex can input (n) how many times the hoop goes round and it will return him an encouraging message :)
